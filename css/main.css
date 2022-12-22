@@ -1,0 +1,210 @@
+body {
+    background-color: #FFD845;
+    color: white;
+    margin: 0;
+    font-family: rubik;
+}
+
+:root {
+    --main-color: #FFD845;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    background-color: var(--main-color);
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+    background-color: #FFD845;
+}
+
+.site-main {
+    flex-grow: 1;
+}
+
+.favorites-btn {
+    position: absolute;
+    top: 50px;
+    right: calc(50% - 500px);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url("../images/heart.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-bg {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.js-search {
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.js-search::placeholder {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.box-bg:focus {
+    background-color: #ffffff;
+}
+
+.box-bg {
+    color: #000;
+}
+
+.box-bg::placeholder {
+    color: #000000;
+}
+
+.js-pokemon-type {
+    color: #000;
+}
+
+.weakness-select {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    background-repeat: no-repeat !important;
+    width: 260px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #000000 !important;
+    border-radius: 15px;
+    margin-right: 100px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.weakness-select {
+    background-position: calc(200px), calc(20px), calc(20px), calc(20px);
+    background-image: url("../images/arrow-to-bottom.svg");
+}
+
+.sort-select {
+    margin-right: 100px;
+}
+
+.pokemon-item {
+    background-color: #ffffff;
+    border: 2px solid #000;
+}
+
+.form-style {
+    margin-left: 50px;
+}
+
+.pokemon-bookmark-star {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    background-image: url("../images/heart.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.btn-submit {
+    width: 72px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    border: none;
+    background-color: transparent;
+}
+
+.pokemon-bookmark-star-delete {
+    background-image: url("../images/trash.svg");
+}
+
+.is-favorite {
+    background-image: url("../images/yellow-star.svg");
+}
+
+.pokemon-name {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.js-pokemon-candy-count {
+    color: #000;
+}
+
+.js-pokemon-weight {
+    color: #000;
+}
+
+.js-pokemon-weaknesses {
+    color: #000;
+}
+
+.favorites-bg {
+    background-color: #FFEDA9;
+}
+
+.favorites-close {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/X.svg");
+    background-size: cover;
+}
+
+.border-top-style {
+    border-top: 2px solid #000;
+}
