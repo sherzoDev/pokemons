@@ -16,9 +16,9 @@
 
     <div class="wrapper mt-5">
         <section class="hero pt-4">
-            <img class="d-block mx-auto mb-5" src="./images/logo.png" alt="Pokemon logo">
+            <img class="d-block mx-auto mb-5 pokemon-logo" src="./images/logo.png" alt="Pokemon logo">
             <form class="js-hero-search-form form-style mb-5 px-4" action="#" method="post" autocomplete="off">
-                <div class="row">
+                <div class="row row-flex">
                     <div class="col-3">
                         <select class="js-select-weaknesses box-bg weakness-select border-0 text-center form-select "
                             name="search_weaknesses" aria-label="Choose Pokemon Weaknesses">
@@ -35,7 +35,7 @@
                                 aria-label="Enter from Pokemon candy count" placeholder="To">
                         </div>
                     </div>
-                    <div class="col-4 search-box">
+                    <div class=" col-3 search-box">
                         <input class="js-search box-bg border-0" type="search" aria-label="Search"
                             placeholder="Search . . . ">
                         <img class="search-logo" src="./images/search.svg" alt="Downloading . . .">
@@ -76,11 +76,6 @@
                             </span>
                             <div class="p-3">
                                 <div class="position-relative mb-4 pb-3 border-bottom">
-                                    <!-- <time
-                                        class="js-pokemon-time position-absolute top-100 start-50 translate-middle badge rounded-pill bg-warning fs-6"
-                                        datetime="15:00">
-                                        15:00
-                                    </time> -->
                                     <h3 class="js-pokemon-name ">
                                         Name: Bulbasaur
                                     </h3>
@@ -123,8 +118,7 @@
             <div class="pokemon-item position-relative d-flex flex-column justify-content-between w-100 rounded-3 px-2">
                 <button class="pokemon-bookmark-star js-pokemon-bookmark-star d-inline-block border-0 bg-transparent">
                 </button>
-                <img class="js-pokemon-img mx-auto" src="http://www.serebii.net/pokemongo/pokemon/001.png" width="250"
-                    height="250" alt="Downloading ...">
+                <img class="js-pokemon-img mx-auto" src="http://www.serebii.net/pokemongo/pokemon/001.png" width="250" height="250" alt="Downloading ...">
                 <span
                     class="js-pokemon-id position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-6">
                     15

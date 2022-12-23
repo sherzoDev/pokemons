@@ -208,3 +208,54 @@ body {
 .border-top-style {
     border-top: 2px solid #000;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+    .pokemon-logo {
+        width: 250px;
+    }
+    
+    .favorites-btn {
+        right: calc(40% - 100px);
+        /* top: calc(100% + 100px); */
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column !important;
+        margin: 0 !important;
+    }
+
+    .form-style {
+        margin-left: 0;
+    }
+
+    .sort-select {
+        margin-right: 0;
+    }
+
+    .search-box { 
+        width: 260px;
+        height: 60px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .js-search {
+        width: 200px;
+    }
+
+    .search-logo {
+        margin: 0;
+    }
+
+    .btn-sub {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .pokemon-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
